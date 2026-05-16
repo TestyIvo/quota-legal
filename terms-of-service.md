@@ -50,7 +50,7 @@ The Service is a personal-finance tracking tool. Nothing in the Service constitu
 
 ## 8. Privacy
 
-Our Privacy Policy at **https://github.com/TestyIvo/spendly-legal/blob/main/PRIVACY-POLICY.md** describes how we collect, use, and share information. By using the Service you agree to the practices in that policy.
+Our Privacy Policy at **https://testyivo.github.io/spendly-legal/privacy-policy** describes how we collect, use, and share information. By using the Service you agree to the practices in that policy.
 
 ## 9. Intellectual property
 
