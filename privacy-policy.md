@@ -1,6 +1,6 @@
 # Privacy Policy — Spendly
 
-**Effective date:** 2026-05-16
+**Effective date:** 2026-05-17
 
 This Privacy Policy explains how Spendly ("we", "us", "our") collects, uses, and shares information when you use our mobile application. By using Spendly you agree to the practices described here.
 
@@ -23,7 +23,7 @@ Spendly is operated as an independent service. For privacy questions, contact **
 
 - **Insights and summaries** computed over your transactions.
 - **Subscription / entitlement state** indicating whether you are on a free, trial, or paid plan.
-- **Diagnostic data** (crash reports, error context, breadcrumbs) collected by Sentry.
+- **Native crash reports** collected by Apple (iOS) and Google (Android) when the operating system terminates the app unexpectedly. We do not run a third-party error-reporting SDK inside the app; the only diagnostic data we receive is whatever the platform vendors expose to developers through Xcode Organizer and Google Play Console → Android Vitals.
 
 ### 2.3 Information we do NOT collect
 
@@ -35,7 +35,7 @@ Spendly is operated as an independent service. For privacy questions, contact **
 
 - **Provide the service.** Show your transactions, generate insights, manage your subscription.
 - **Receipt parsing.** Send receipt images to our AI provider (Anthropic) to extract structured data.
-- **Quality and reliability.** Detect crashes and errors via Sentry so we can fix them. Error reports may include a masked session replay of the screen at the time of error; we mask all text and images so financial values are never visible in the replay.
+- **Quality and reliability.** Identify crashes via the platform-native crash reporters provided by Apple and Google so we can fix them. We do not record session replays.
 - **Account management.** Authenticate you, enforce your plan, comply with legal obligations.
 
 ## 4. Legal basis (GDPR)
@@ -43,7 +43,6 @@ Spendly is operated as an independent service. For privacy questions, contact **
 | Purpose | Legal basis |
 |---|---|
 | Operating the app | Contract — Art. 6(1)(b) |
-| Diagnostics, error reports | Legitimate interest — Art. 6(1)(f); opt out via Profile → Privacy preferences |
 | Receipt OCR | Consent — Art. 6(1)(a); granted by enabling AI features |
 | Anonymous analytics | Consent — Art. 6(1)(a); off by default |
 | Account deletion / regulatory | Legal obligation — Art. 6(1)(c) |
@@ -57,9 +56,8 @@ We share information with the following processors:
 | Supabase | Authentication, database, file storage, server-side functions | EU | Standard DPA |
 | RevenueCat | Subscription management | US | Standard DPA |
 | Anthropic | Receipt OCR (only when AI features are enabled) | US | Anthropic Commercial Terms |
-| Sentry | Error and crash reporting | US (default region) | Standard DPA |
-| Apple | App distribution and in-app purchase processing | US | Apple DPA |
-| Google | Android distribution and Play in-app purchase processing | US | Google DPA |
+| Apple | App distribution, in-app purchase processing, and iOS crash reporting (Xcode Organizer) | US | Apple DPA |
+| Google | Android distribution, Play in-app purchase processing, and Android crash reporting (Android Vitals) | US | Google DPA |
 
 ## 6. International transfers
 
@@ -72,7 +70,7 @@ Personal data may be transferred outside Bulgaria and the EU/EEA, including to t
 | Account and financial data | While your account is active. After deletion: 30-day soft-delete window, then irreversibly purged. |
 | Receipt images | Same as account data. |
 | Backup files exported by you | We do not retain server copies. |
-| Diagnostic data (Sentry) | 90 days from collection. |
+| Native crash reports (Apple / Google) | Retained by the platform vendor under their own policies; we do not store them on our infrastructure. |
 | Subscription events (RevenueCat) | 12 months (vendor default). |
 | Audit log of security-relevant events | 7 years (SOC 2 evidence retention). |
 | Sign-in event log | 90 days. |
