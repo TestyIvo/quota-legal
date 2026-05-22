@@ -1,14 +1,14 @@
-# Privacy Policy — Spendly
+# Privacy Policy — Quota
 
 **Effective date:** 2026-05-17
 
-This Privacy Policy explains how Spendly ("we", "us", "our") collects, uses, and shares information when you use our mobile application. By using Spendly you agree to the practices described here.
+This Privacy Policy explains how Quota ("we", "us", "our") collects, uses, and shares information when you use our mobile application. By using Quota you agree to the practices described here.
 
 ---
 
 ## 1. Who we are
 
-Spendly is operated as an independent service. For privacy questions, contact **snogard2014@gmail.com**.
+Quota is operated as an independent service. For privacy questions, contact **snogard2014@gmail.com**.
 
 ## 2. Information we collect
 
@@ -99,7 +99,7 @@ We respond to verified rights requests within **30 days** (up to 45 in complex c
 
 ## 10. Children
 
-Spendly is not directed at users under **16**, and we do not knowingly collect their data. If you are under 16, please do not use the Service. If you believe a child has provided us with personal data, contact **snogard2014@gmail.com** and we will delete it.
+Quota is not directed at users under **16**, and we do not knowingly collect their data. If you are under 16, please do not use the Service. If you believe a child has provided us with personal data, contact **snogard2014@gmail.com** and we will delete it.
 
 ## 11. Changes to this policy
 
