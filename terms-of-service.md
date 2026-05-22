@@ -1,8 +1,8 @@
-# Terms of Service — Spendly
+# Terms of Service — Quota
 
 **Effective date:** 2026-05-16
 
-These Terms of Service ("Terms") govern your use of the Spendly mobile application and related services (collectively, the "Service") provided by Spendly ("we", "us", "our"). By creating an account or using the Service you agree to these Terms.
+These Terms of Service ("Terms") govern your use of the Quota mobile application and related services (collectively, the "Service") provided by Quota ("we", "us", "our"). By creating an account or using the Service you agree to these Terms.
 
 ---
 
@@ -50,7 +50,7 @@ The Service is a personal-finance tracking tool. Nothing in the Service constitu
 
 ## 8. Privacy
 
-Our Privacy Policy at **https://testyivo.github.io/spendly-legal/privacy-policy** describes how we collect, use, and share information. By using the Service you agree to the practices in that policy.
+Our Privacy Policy at **https://testyivo.github.io/Quota-legal/privacy-policy** describes how we collect, use, and share information. By using the Service you agree to the practices in that policy.
 
 ## 9. Intellectual property
 
