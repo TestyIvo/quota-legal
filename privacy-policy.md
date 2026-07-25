@@ -1,6 +1,6 @@
 # Privacy Policy — Quota
 
-**Effective date:** 2026-05-17
+**Effective date:** 2026-07-25
 
 This Privacy Policy explains how Quota ("we", "us", "our") collects, uses, and shares information when you use our mobile application. By using Quota you agree to the practices described here.
 
@@ -81,7 +81,7 @@ Under the EU General Data Protection Regulation (GDPR) and equivalent national l
 
 - **Access** — Profile → Export my data returns a machine-readable JSON copy and fulfils your access request.
 - **Rectification** — edit your data directly in the app.
-- **Erasure** — Profile → Delete account soft-deletes immediately and triggers permanent purge after 30 days. You can cancel during that window by signing back in.
+- **Erasure** — Profile → Delete account soft-deletes immediately and triggers permanent purge after 30 days. You can cancel during that window by signing back in. See also our [account deletion page](./delete-account).
 - **Restriction / objection** — toggles in Profile → Privacy preferences.
 - **Portability** — the export is in standard JSON.
 - **Withdraw consent** — at any time for AI features and analytics.
@@ -93,7 +93,7 @@ We respond to verified rights requests within **30 days** (up to 45 in complex c
 
 - Row-Level Security on every owner-scoped database table.
 - Authentication tokens stored in iOS Keychain or Android Keystore.
-- App-lock PINs hashed with PBKDF2-SHA256, 600 000 iterations.
+- App-lock PINs hashed with PBKDF2-SHA256, 100 000 iterations. The PIN is a 4-digit code, so the practical protection comes from the hardware-backed keystore and server-side attempt lockout rather than the work factor alone.
 - Backups exported from the app can be optionally AES-256-GCM encrypted with a passphrase you choose.
 - We do not store payment-card information.
 
