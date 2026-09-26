@@ -53,7 +53,7 @@ We share information with the following processors:
 
 | Processor | Purpose | Region | Notes |
 |---|---|---|---|
-| Supabase | Authentication, database, file storage, server-side functions | EU | Standard DPA |
+| Supabase | Authentication, database, file storage, server-side functions | Switzerland (Zurich) | Standard DPA |
 | RevenueCat | Subscription management | US | Standard DPA |
 | Anthropic | Receipt OCR (only when AI features are enabled) | US | Anthropic Commercial Terms |
 | Apple | App distribution, in-app purchase processing, and iOS crash reporting (Xcode Organizer) | US | Apple DPA |
@@ -61,7 +61,9 @@ We share information with the following processors:
 
 ## 6. International transfers
 
-Personal data may be transferred outside Bulgaria and the EU/EEA, including to the United States. Where the destination is outside the EEA/UK and not subject to an adequacy decision, transfers rely on the European Commission's Standard Contractual Clauses (SCCs) and the UK International Data Transfer Addendum where applicable.
+Your account and financial data are stored by Supabase in Zurich, Switzerland. The European Commission recognises Switzerland as providing an adequate level of data protection, so this transfer needs no additional safeguards.
+
+Personal data may also be transferred to the United States. Where the destination is outside the EEA/UK and not subject to an adequacy decision, transfers rely on the European Commission's Standard Contractual Clauses (SCCs) and the UK International Data Transfer Addendum where applicable.
 
 ## 7. Retention
 
