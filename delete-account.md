@@ -12,7 +12,8 @@ You can delete your account and all associated data at any time. There are two w
 2. Scroll to the bottom and tap **Delete Account**.
 3. Confirm when prompted.
 
-Your financial data is hidden immediately and your account is scheduled for permanent deletion.
+You are signed out on every device straight away, and your account is permanently deleted **24 hours later**.
+Changed your mind? Sign back in within those 24 hours and tap **Restore my account**.
 
 ## Option 2 — By email
 
@@ -27,18 +28,24 @@ from the address associated with your account, with the subject
 - All transactions, budgets, savings goals, and subscriptions.
 - Any receipt images stored for AI scanning.
 - Your subscription/entitlement records.
+- Security records tied to your account (sign-in history, PIN attempt counters).
 
 ## Timing & retention
 
-On request, your data enters a **30-day soft-delete grace period** (so an accidental deletion
-can be reversed by contacting support), after which it is **permanently purged** from our
-systems. We do not retain a copy beyond this window, except where a longer period is required
-by law (e.g. tax or accounting records we are legally obliged to keep). Backups you exported
-yourself are stored on your own device and are not affected — delete those manually.
+Deletion takes effect **24 hours** after you request it. Until then you can undo it by signing
+back in. After that, your account, all its data and any stored receipt images and profile photo
+are **permanently deleted** (normally within 15 minutes of the 24 hours ending) and cannot be
+recovered. We do not keep a copy, except for our security audit log, which records that the
+deletion happened without your account details, and where a longer period is required by law
+(e.g. tax or accounting records we are legally obliged to keep). Backups you exported yourself
+are stored on your own device and are not affected — delete those manually.
+
+Deleting your account does not cancel a Quota Pro subscription bought through Google Play or
+the App Store. Cancel it in the store as well.
 
 For full details on what we collect and how we process it, see our
 [Privacy Policy](./privacy-policy).
 
 ---
 
-*Last updated: 25 July 2026 · Contact: snogard2014@gmail.com*
+*Last updated: 26 September 2026 · Contact: snogard2014@gmail.com*

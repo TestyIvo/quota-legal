@@ -1,6 +1,6 @@
 # Privacy Policy — Quota
 
-**Effective date:** 2026-07-25
+**Effective date:** 2026-09-26
 
 This Privacy Policy explains how Quota ("we", "us", "our") collects, uses, and shares information when you use our mobile application. By using Quota you agree to the practices described here.
 
@@ -67,7 +67,7 @@ Personal data may be transferred outside Bulgaria and the EU/EEA, including to t
 
 | Data | Retention |
 |---|---|
-| Account and financial data | While your account is active. After deletion: 30-day soft-delete window, then irreversibly purged. |
+| Account and financial data | While your account is active. After you delete your account: 24 hours in which you can restore it by signing back in, then permanently deleted. |
 | Receipt images | Same as account data. |
 | Backup files exported by you | We do not retain server copies. |
 | Native crash reports (Apple / Google) | Retained by the platform vendor under their own policies; we do not store them on our infrastructure. |
@@ -81,7 +81,7 @@ Under the EU General Data Protection Regulation (GDPR) and equivalent national l
 
 - **Access** — Profile → Export my data returns a machine-readable JSON copy and fulfils your access request.
 - **Rectification** — edit your data directly in the app.
-- **Erasure** — Profile → Delete account soft-deletes immediately and triggers permanent purge after 30 days. You can cancel during that window by signing back in. See also our [account deletion page](./delete-account).
+- **Erasure** — Profile → Delete account signs you out on every device and permanently deletes your account and all its data 24 hours later. Until then you can cancel by signing back in and choosing Restore. See also our [account deletion page](./delete-account).
 - **Restriction / objection** — toggles in Profile → Privacy preferences.
 - **Portability** — the export is in standard JSON.
 - **Withdraw consent** — at any time for AI features and analytics.
