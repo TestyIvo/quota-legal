@@ -24,9 +24,9 @@ from the address associated with your account, with the subject
 
 ## What gets deleted
 
-- Your account and login credentials (email, optional name, optional avatar).
-- All transactions, budgets, savings goals, and subscriptions.
-- Any receipt images stored for AI scanning.
+- Your account and login credentials (email, optional name, optional profile picture).
+- All transactions, budgets, savings goals (with their history), recurring payments, and the settings saved with your account.
+- Any receipt images stored before 2 October 2026. Receipt photos sent for scanning since then are not stored.
 - Your subscription/entitlement records.
 - Security records tied to your account (sign-in history, PIN attempt counters).
 
@@ -37,7 +37,7 @@ back in. After that, your account, all its data and any stored receipt images an
 are **permanently deleted** (normally within 15 minutes of the 24 hours ending) and cannot be
 recovered. We do not keep a copy, except for our security audit log, which records that the
 deletion happened without your account details, and where a longer period is required by law
-(e.g. tax or accounting records we are legally obliged to keep). Backups you exported yourself
+(e.g. tax or accounting records we are legally obliged to keep). Data downloads you made yourself
 are stored on your own device and are not affected — delete those manually.
 
 Deleting your account does not cancel a Quota Pro subscription bought through Google Play or
@@ -48,4 +48,4 @@ For full details on what we collect and how we process it, see our
 
 ---
 
-*Last updated: 26 September 2026 · Contact: snogard2014@gmail.com*
+*Last updated: 6 October 2026 · Contact: snogard2014@gmail.com*

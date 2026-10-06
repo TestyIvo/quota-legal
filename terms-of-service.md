@@ -1,6 +1,6 @@
 # Terms of Service — Quota
 
-**Effective date:** 2026-05-16
+**Effective date:** 2026-10-06
 
 These Terms of Service ("Terms") govern your use of the Quota mobile application and related services (collectively, the "Service") provided by Quota ("we", "us", "our"). By creating an account or using the Service you agree to these Terms.
 
@@ -24,7 +24,9 @@ We may suspend or terminate accounts that violate these Terms or that we suspect
 
 The Service is offered on a freemium model. Some features require a paid subscription ("Pro"). New users receive a **14-day free trial** of Pro features automatically; the trial does not renew and does not auto-convert to a paid subscription.
 
-Paid subscriptions are processed by **Apple App Store** or **Google Play** under their respective billing terms. Refunds are governed by those stores' policies; we do not process refunds directly.
+Paid subscriptions are processed by **Apple App Store** or **Google Play** under their respective billing terms, and renew automatically until you cancel. You can cancel at any time from **Profile → Manage**, which opens your store's subscriptions page, or in the store directly. Cancelling stops the next renewal; Pro stays available until the end of the period you have already paid for. Refunds are governed by those stores' policies; we do not process refunds directly.
+
+Downloading a copy of your data (**Profile → Download my data**) is free on every plan.
 
 ## 4. Acceptable use
 
@@ -38,7 +40,7 @@ You agree not to:
 
 ## 5. Your content
 
-The financial data, receipts, and other content you record in the Service ("Your Content") remain yours. You grant us a limited, non-exclusive licence to host, process, and display Your Content solely to operate the Service. You are responsible for maintaining your own backups using **Profile → Export my data**.
+The financial data, receipts, and other content you record in the Service ("Your Content") remain yours. You grant us a limited, non-exclusive licence to host, process, and display Your Content solely to operate the Service. You can download a copy of Your Content at any time using **Profile → Download my data**.
 
 ## 6. AI-assisted features
 
@@ -50,7 +52,7 @@ The Service is a personal-finance tracking tool. Nothing in the Service constitu
 
 ## 8. Privacy
 
-Our Privacy Policy at **https://testyivo.github.io/Quota-legal/privacy-policy** describes how we collect, use, and share information. By using the Service you agree to the practices in that policy.
+Our Privacy Policy at **https://testyivo.github.io/quota-legal/privacy-policy** describes how we collect, use, and share information. By using the Service you agree to the practices in that policy.
 
 ## 9. Intellectual property
 
@@ -74,7 +76,7 @@ You agree to indemnify and hold us harmless from any claim arising out of your b
 
 ## 13. Termination
 
-You may terminate your account at any time via **Profile → Delete account**. We may terminate or suspend your access immediately for material breach of these Terms. On termination, your right to use the Service ends; the soft-delete and purge process described in the Privacy Policy applies.
+You may terminate your account at any time via **Profile → Delete account**. We may terminate or suspend your access immediately for material breach of these Terms. On termination, your right to use the Service ends. When you delete your account, you are signed out on every device and the account is permanently deleted 24 hours later; you can restore it by signing back in before then, as described in the Privacy Policy. Deleting your account does not cancel a subscription bought through Apple or Google; cancel it in the store as well.
 
 ## 14. Changes
 

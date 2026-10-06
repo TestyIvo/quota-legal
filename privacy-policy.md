@@ -1,6 +1,6 @@
 # Privacy Policy — Quota
 
-**Effective date:** 2026-09-26
+**Effective date:** 2026-10-06
 
 This Privacy Policy explains how Quota ("we", "us", "our") collects, uses, and shares information when you use our mobile application. By using Quota you agree to the practices described here.
 
@@ -14,14 +14,16 @@ Quota is operated as an independent service. For privacy questions, contact **sn
 
 ### 2.1 Information you give us
 
-- **Account information.** Email address; optional full name; optional avatar image.
-- **Financial data.** Transactions (amount, date, category, description), budgets, recurring subscriptions, savings goals, and any transaction notes you record.
-- **Receipt images.** When you use the receipt-scanning feature, the photograph is uploaded to our processing pipeline.
-- **App-lock PIN.** If you set one, we store only an irreversible hash on your device.
+- **Account information.** Email address; optional full name; optional profile picture.
+- **Financial data.** Transactions (amount, date, category, description), budgets and their monthly limits, recurring payments, savings goals and their history, and quick actions you save.
+- **Preferences.** Your currency, theme, tab layout, notification settings, custom categories, and your answer to the AI receipt-scanning question, stored with your account so they follow you to another device.
+- **Receipt images.** When you scan a receipt, the photo is sent to our server and on to our AI provider to read it. We do not store the photo.
+- **Profile picture.** If you add one, it is resized to 512 × 512 pixels and stored with your account. It is kept at an address that includes your account's random identifier; anyone who has that exact address can view the picture, but the pictures cannot be listed or searched.
+- **App-lock PIN.** If you set one, we store only an irreversible hash on your device, and a count of wrong attempts on our server to enforce a lockout.
 
 ### 2.2 Information we generate
 
-- **Insights and summaries** computed over your transactions.
+- **Insights and summaries** computed over your transactions. These are worked out on your device.
 - **Subscription / entitlement state** indicating whether you are on a free, trial, or paid plan.
 - **Native crash reports** collected by Apple (iOS) and Google (Android) when the operating system terminates the app unexpectedly. We do not run a third-party error-reporting SDK inside the app; the only diagnostic data we receive is whatever the platform vendors expose to developers through Xcode Organizer and Google Play Console → Android Vitals.
 
@@ -29,7 +31,10 @@ Quota is operated as an independent service. For privacy questions, contact **sn
 
 - We do not connect to your bank or store any banking credentials, card numbers, or account numbers.
 - We do not collect precise location data.
-- We do not collect contacts, calendar entries, or your photo library beyond a single camera capture for receipts.
+- We do not collect contacts, calendar entries, or your photo library beyond the single photo you choose for a receipt or a profile picture.
+- **Face ID and fingerprints** used for App lock are checked by your phone's operating system; we never receive them.
+- **Notifications** (bill reminders, budget alerts, the weekly recap and the logging reminder) are scheduled on your phone. We do not use push notifications or store a device token, and nothing about them is sent to us.
+- We do not use analytics, advertising or tracking SDKs.
 
 ## 3. How we use information
 
@@ -43,8 +48,7 @@ Quota is operated as an independent service. For privacy questions, contact **sn
 | Purpose | Legal basis |
 |---|---|
 | Operating the app | Contract — Art. 6(1)(b) |
-| Receipt OCR | Consent — Art. 6(1)(a); granted by enabling AI features |
-| Anonymous analytics | Consent — Art. 6(1)(a); off by default |
+| Receipt scanning with AI | Consent — Art. 6(1)(a); asked the first time you scan a receipt |
 | Account deletion / regulatory | Legal obligation — Art. 6(1)(c) |
 
 ## 5. Sub-processors
@@ -55,7 +59,7 @@ We share information with the following processors:
 |---|---|---|---|
 | Supabase | Authentication, database, file storage, server-side functions | Switzerland (Zurich) | Standard DPA |
 | RevenueCat | Subscription management | US | Standard DPA |
-| Anthropic | Receipt OCR (only when AI features are enabled) | US | Anthropic Commercial Terms |
+| Anthropic | Reading receipt photos (only when you scan one, after agreeing) | US | Anthropic Commercial Terms |
 | Apple | App distribution, in-app purchase processing, and iOS crash reporting (Xcode Organizer) | US | Apple DPA |
 | Google | Android distribution, Play in-app purchase processing, and Android crash reporting (Android Vitals) | US | Google DPA |
 
@@ -70,8 +74,9 @@ Personal data may also be transferred to the United States. Where the destinatio
 | Data | Retention |
 |---|---|
 | Account and financial data | While your account is active. After you delete your account: 24 hours in which you can restore it by signing back in, then permanently deleted. |
-| Receipt images | Same as account data. |
-| Backup files exported by you | We do not retain server copies. |
+| Receipt images | Not stored by us. Photos stored before 2 October 2026 are deleted with your account. |
+| Profile picture | While your account is active; deleted with your account, or when you remove it in Profile. |
+| Data downloads you make | We do not retain server copies. |
 | Native crash reports (Apple / Google) | Retained by the platform vendor under their own policies; we do not store them on our infrastructure. |
 | Subscription events (RevenueCat) | 12 months (vendor default). |
 | Audit log of security-relevant events | 7 years (SOC 2 evidence retention). |
@@ -81,22 +86,24 @@ Personal data may also be transferred to the United States. Where the destinatio
 
 Under the EU General Data Protection Regulation (GDPR) and equivalent national laws, you have the following rights. You can exercise them either in-app where indicated, or by emailing **snogard2014@gmail.com**.
 
-- **Access** — Profile → Export my data returns a machine-readable JSON copy and fulfils your access request.
+- **Access** — Profile → Download my data returns a machine-readable JSON copy, free of charge, and fulfils your access request.
 - **Rectification** — edit your data directly in the app.
 - **Erasure** — Profile → Delete account signs you out on every device and permanently deletes your account and all its data 24 hours later. Until then you can cancel by signing back in and choosing Restore. See also our [account deletion page](./delete-account).
-- **Restriction / objection** — toggles in Profile → Privacy preferences.
-- **Portability** — the export is in standard JSON.
-- **Withdraw consent** — at any time for AI features and analytics.
+- **Restriction / objection** — email us at the address below.
+- **Portability** — the download is in standard JSON.
+- **Withdraw consent** — for AI receipt scanning, at any time, by emailing us; we will turn it off for your account.
 - **Lodge a complaint** — with the Bulgarian **Commission for Personal Data Protection** (CPDP, [www.cpdp.bg](https://www.cpdp.bg/)) or the supervisory authority in your country of residence.
 
-We respond to verified rights requests within **30 days** (up to 45 in complex cases, with notice). To prevent account takeover, we verify identity before fulfilling requests received outside the in-app export.
+We respond to verified rights requests within **30 days** (up to 45 in complex cases, with notice). To prevent account takeover, we verify identity before fulfilling requests received outside the in-app download.
 
 ## 9. Security
 
 - Row-Level Security on every owner-scoped database table.
 - Authentication tokens stored in iOS Keychain or Android Keystore.
 - App-lock PINs hashed with PBKDF2-SHA256, 100 000 iterations. The PIN is a 4-digit code, so the practical protection comes from the hardware-backed keystore and server-side attempt lockout rather than the work factor alone.
-- Backups exported from the app can be optionally AES-256-GCM encrypted with a passphrase you choose.
+- App lock asks for Face ID, a fingerprint or your PIN when you open Quota after a minute or more away.
+- Changing your password in the app asks for your phone's lock and your current password, and can sign out your other devices.
+- Data downloads are plain JSON files so you can open them; store them somewhere safe.
 - We do not store payment-card information.
 
 ## 10. Children
