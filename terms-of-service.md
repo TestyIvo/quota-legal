@@ -52,7 +52,7 @@ The Service is a personal-finance tracking tool. Nothing in the Service constitu
 
 ## 8. Privacy
 
-Our Privacy Policy at **https://testyivo.github.io/quota-legal/privacy-policy** describes how we collect, use, and share information. By using the Service you agree to the practices in that policy.
+Our Privacy Policy at **https://testyivo.github.io/quota-legal/privacy-policy** describes how we collect, use, and share information.
 
 ## 9. Intellectual property
 
@@ -80,7 +80,7 @@ You may terminate your account at any time via **Profile → Delete account**. W
 
 ## 14. Changes
 
-We may update these Terms from time to time. We will post an in-app notice for material changes. Continued use after a change constitutes acceptance.
+We may update these Terms from time to time. We publish the updated Terms at this address and update the "Effective date" above; material changes are published at least 14 days before they take effect. The current version is always linked from the app (Profile → Terms of Service). If you continue to use the Service after a change takes effect, the updated Terms apply; if you don't agree, you can stop using the Service and delete your account.
 
 ## 15. Governing law and disputes
 

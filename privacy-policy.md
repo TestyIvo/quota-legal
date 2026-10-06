@@ -2,7 +2,7 @@
 
 **Effective date:** 2026-10-06
 
-This Privacy Policy explains how Quota ("we", "us", "our") collects, uses, and shares information when you use our mobile application. By using Quota you agree to the practices described here.
+This Privacy Policy explains how Quota ("we", "us", "our") collects, uses, and shares information when you use our mobile application. Please read it to understand how your data is handled.
 
 ---
 
@@ -87,11 +87,11 @@ Personal data may also be transferred to the United States. Where the destinatio
 Under the EU General Data Protection Regulation (GDPR) and equivalent national laws, you have the following rights. You can exercise them either in-app where indicated, or by emailing **snogard2014@gmail.com**.
 
 - **Access** — Profile → Download my data returns a machine-readable JSON copy, free of charge, and fulfils your access request.
-- **Rectification** — edit your data directly in the app.
+- **Rectification** — edit your data directly in the app. To change your email address, use Profile → Change Email; until the app can send confirmation emails, this sends us a request from your mail app, and we make the change once we have confirmed it came from your current address.
 - **Erasure** — Profile → Delete account signs you out on every device and permanently deletes your account and all its data 24 hours later. Until then you can cancel by signing back in and choosing Restore. See also our [account deletion page](./delete-account).
 - **Restriction / objection** — email us at the address below.
 - **Portability** — the download is in standard JSON.
-- **Withdraw consent** — for AI receipt scanning, at any time, by emailing us; we will turn it off for your account.
+- **Withdraw consent** — for AI receipt scanning, at any time, by emailing us; we will turn it off for your account, and Quota asks again before your next scan.
 - **Lodge a complaint** — with the Bulgarian **Commission for Personal Data Protection** (CPDP, [www.cpdp.bg](https://www.cpdp.bg/)) or the supervisory authority in your country of residence.
 
 We respond to verified rights requests within **30 days** (up to 45 in complex cases, with notice). To prevent account takeover, we verify identity before fulfilling requests received outside the in-app download.
@@ -102,7 +102,8 @@ We respond to verified rights requests within **30 days** (up to 45 in complex c
 - Authentication tokens stored in iOS Keychain or Android Keystore.
 - App-lock PINs hashed with PBKDF2-SHA256, 100 000 iterations. The PIN is a 4-digit code, so the practical protection comes from the hardware-backed keystore and server-side attempt lockout rather than the work factor alone.
 - App lock asks for Face ID, a fingerprint or your PIN when you open Quota after a minute or more away.
-- Changing your password in the app asks for your phone's lock and your current password, and can sign out your other devices.
+- Changing your password in the app asks for your phone's lock and your current password, and signs out your other devices.
+- Changing your email in the app asks for Face ID or a fingerprint, or your password on a phone without them.
 - Data downloads are plain JSON files so you can open them; store them somewhere safe.
 - We do not store payment-card information.
 
@@ -112,7 +113,7 @@ Quota is not directed at users under **16**, and we do not knowingly collect the
 
 ## 11. Changes to this policy
 
-We will post an in-app notice and update the "Effective date" above when we make material changes. Continued use after a change constitutes acceptance.
+When we make material changes, we publish the new version at this address and update the "Effective date" above before it takes effect. The current version is always linked from the app (Profile → Privacy Policy).
 
 ## 12. Contact
 
