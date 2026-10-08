@@ -1,6 +1,6 @@
 # Terms of Service — Quota
 
-**Effective date:** 2026-10-06
+**Effective date:** 2026-10-08
 
 These Terms of Service ("Terms") govern your use of the Quota mobile application and related services (collectively, the "Service") provided by Quota ("we", "us", "our"). By creating an account or using the Service you agree to these Terms.
 
@@ -27,6 +27,8 @@ The Service is offered on a freemium model. Some features require a paid subscri
 Paid subscriptions are processed by **Apple App Store** or **Google Play** under their respective billing terms, and renew automatically until you cancel. You can cancel at any time from **Profile → Manage**, which opens your store's subscriptions page, or in the store directly. Cancelling stops the next renewal; Pro stays available until the end of the period you have already paid for. Refunds are governed by those stores' policies; we do not process refunds directly.
 
 Downloading a copy of your data (**Profile → Download my data**) is free on every plan.
+
+**Receipt scanning limits.** Receipt scanning is subject to fair-use limits: up to **3 successful scans a day** during the free trial, and up to **5 successful scans a day and 100 a calendar month** with Pro. Scans that fail or that the AI can't read don't count toward these limits, but repeated attempts may be paused for the rest of the day. Days and months follow Coordinated Universal Time (UTC). The app shows when a limit is reached, and you can always add transactions by hand. We may change these limits; a reduction is a material change under section 14.
 
 ## 4. Acceptable use
 
