@@ -1,10 +1,3 @@
-# Quota — Legal
+# quota-legal (archived)
 
-Public copies of the legal documents that govern Quota.
-
-- [Privacy Policy](./privacy-policy.md)
-- [Terms of Service](./terms-of-service.md)
-
-For any question about either document: **snogard2014@gmail.com**
-
-These pages mirror the canonical versions maintained in the Quota application repository.
+Quota was renamed Sumlo on 2026-10-10. The Privacy Policy, Terms of Service and account-deletion page now live at https://sumlo.app, and every page here redirects there.
